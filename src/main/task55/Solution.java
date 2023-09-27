@@ -14,7 +14,7 @@ DESCRIPTION:
         ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
     Note: For 4 or more names, the number in "and 2 others" simply increases.
 */
-class Solution {
+public class Solution {
     public static String whoLikesIt(String... names) {
         if (names.length==0)
             return "no one likes this";
